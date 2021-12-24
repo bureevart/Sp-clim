@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+
+        android:layout_height="0dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:text="Температура воздуха наиболее холодных суток, °С, обеспеченностью"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:layout_span="3"
+                        android:text="0,98"/>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:layout_span="3"
+                        android:text="0,92"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/param2"
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_span="3"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/param3"
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_span="3"
+                        android:gravity="center"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="Температура воздуха наиболее холодной пятидневки, °С, обеспеченностью"
+                        android:gravity="center"
+                        android:layout_span="6"/>
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:layout_span="3"
+                        android:text="0,98"/>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:layout_span="3"
+                        android:text="0,92"/>
+
+
+
+                </TableRow>
+
+                <TableRow
+                    >
+
+                    <TextView
+                        android:id="@+id/param4"
+                        android:gravity="center"
+                        android:layout_span="3"
+                        />
+
+                    <TextView
+                        android:id="@+id/param5"
+                        android:gravity="center"
+                        android:layout_span="3"/>
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="6"
+                    android:gravity="center"
+                    android:text="Температура воздуха, °С, обеспеченностью 0,94"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:id="@+id/param6"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:text="Абсолютная минимальная температура воздуха, °С"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/param7"
+                        android:gravity="center"
+                        android:layout_span="6"/>
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:text="Средняя суточная амплитуда температуры воздуха наиболее холодного месяца, °С"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/param8"
+                        android:gravity="center"
+                        android:layout_span="6" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:text="Продолжительность, сут, и средняя температура воздуха, °С, периода со средней суточной температурой воздуха"/>
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_span="2"
+                        android:gravity="center"
+                        android:text="≤0°C"/>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_span="2"
+                        android:gravity="center"
+                        android:text="≤8°C"/>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_span="2"
+                        android:gravity="center"
+                        android:text="≤10°C"/>
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:text="продолжительность"/>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:text="средняя температура"/>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:text="продолжительность"/>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:text="средняя температура"/>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:text="продолжительность"/>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:text="средняя температура"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/param9"
+                        android:gravity="center"
+                        android:layout_span="1"/>
+                    <TextView
+                        android:id="@+id/param10"
+                        android:gravity="center"
+                        android:layout_span="1"/>
+                    <TextView
+                        android:id="@+id/param11"
+                        android:gravity="center"
+                        android:layout_span="1"/>
+                    <TextView
+                        android:id="@+id/param12"
+                        android:gravity="center"
+                        android:layout_span="1"/>
+                    <TextView
+                        android:id="@+id/param13"
+                        android:gravity="center"
+                        android:layout_span="1"/>
+                    <TextView
+                        android:id="@+id/param14"
+                        android:gravity="center"
+                        android:layout_span="1"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:text="Средняя месячная относительная влажность воздуха наиболее холодного месяца, %"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:id="@+id/param15"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:text="Средняя месячная относительная влажность воздуха в 15 ч наиболее холодного месяца, %"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:id="@+id/param16"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:text="Количество осадков за ноябрь март, мм"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:id="@+id/param17"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:text="Преобладающее направление ветра за декабрь февраль"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:id="@+id/param18"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:text="Максимальная из средних скоростей ветра по румбам за январь, м/с"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:id="@+id/param19"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:text="Средняя скорость ветра, м/с, за период со средней суточной температурой воздуха ≤8°C"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:id="@+id/param20"/>
+
+                </TableRow>
+
+            </TableLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/return_to_map"
+        android:text="Вернуться назад"
+        />
+
+
+
+</LinearLayout>
